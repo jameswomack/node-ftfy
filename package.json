@@ -1,0 +1,43 @@
+{
+  "name": "ftfy",
+  "version": "1.0.0",
+  "description": "Suggest a URL when someone enters a typo on your Restify server",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js && jscs index.js",
+    "prepublish": "npm test",
+    "test": "npm run lint && mocha ./test/specs/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswomack/node-ftfy.git"
+  },
+  "keywords": [
+    "levenshtein",
+    "didyoumean",
+    "restify",
+    "plugin",
+    "middleware"
+  ],
+  "author": "James Womack <james@womack.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameswomack/node-ftfy/issues"
+  },
+  "homepage": "https://github.com/jameswomack/node-ftfy#readme",
+  "devDependencies": {
+    "chai": "3.2.0",
+    "eslint": "1.1.0",
+    "esprima-fb": "15001.1001.0-dev-harmony-fb",
+    "jscs": "2.0.0",
+    "mocha": "2.2.5",
+    "restify": "3.0.3",
+    "rewire": "2.3.4",
+    "sinon": "1.15.4",
+    "sinon-chai": "2.8.0",
+    "supertest": "1.0.1"
+  },
+  "dependencies": {
+    "didyoumean": "1.2.1"
+  }
+}

@@ -1,10 +1,23 @@
 # node-ftfy
 Suggest a URL when someone enters a typo on your Restify server
 
+## Get it
+```
+npm i ftfy -SE
+```
+
+## Test it
+```
+git clone https://github.com/jameswomack/node-ftfy.git
+cd node-ftfy
+npm i
+npm test
+```
+
 ## Example Usage
 
 ```
-var FTFY = require('./')
+var FTFY = require('ftfy')
 var server = Restify.createServer()
 
 server.get('/the-president', handler)

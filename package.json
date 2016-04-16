@@ -26,16 +26,15 @@
   },
   "homepage": "https://github.com/jameswomack/node-ftfy#readme",
   "devDependencies": {
-    "chai": "3.2.0",
-    "eslint": "1.1.0",
-    "esprima-fb": "15001.1001.0-dev-harmony-fb",
-    "jscs": "2.0.0",
-    "mocha": "2.2.5",
-    "restify": "3.0.3",
-    "rewire": "2.3.4",
-    "sinon": "1.15.4",
+    "chai": "^3.5.0",
+    "eslint": "^2.8.0",
+    "jscs": "^3.0.2",
+    "mocha": "^2.4.5",
+    "restify": "^4.0.4",
+    "rewire": "^2.5.1",
+    "sinon": "^1.17.3",
     "sinon-chai": "2.8.0",
-    "supertest": "1.0.1"
+    "supertest": "^1.2.0"
   },
   "dependencies": {
     "didyoumean": "1.2.1"

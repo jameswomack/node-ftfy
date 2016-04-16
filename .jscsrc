@@ -8,8 +8,6 @@
   "disallowNodeTypes": ["LabeledStatement"],
   "disallowQuotedKeysInObjects": true,
   "disallowSpaceAfterPrefixUnaryOperators": true,
-  "esnext": true, // uses jscs-dev/esprima-harmony
-  "esprima": "./node_modules/esprima-fb", // need to npm install esprima or esprima-fb, etc
   "excludeFiles": [],
   "requireAlignedObjectValues": "ignoreLineBreak",
   "requireCapitalizedConstructors": true,
@@ -54,6 +52,5 @@
   },
   "validateNewlineAfterArrayElements": true,
   "validateIndentation": 2,
-  "validateParameterSeparator": ", ",
-  "validateQuoteMarks": "'"
+  "validateParameterSeparator": ", "
 }

@@ -1,6 +1,6 @@
 {
   "name": "ftfy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Suggest a URL when someone enters a typo on your Restify server",
   "main": "index.js",
   "scripts": {
